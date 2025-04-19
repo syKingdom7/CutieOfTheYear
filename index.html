@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>And the cutie of the year award goes to</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-green-100 to-emerald-200 min-h-screen flex flex-col px-4 py-8">
+
+  <!-- Navbar -->
+  <nav class="w-full max-w-6xl mx-auto bg-emerald-100 rounded-full shadow-md px-6 py-3 flex justify-between items-center mb-10">
+    <div class="text-emerald-700 font-bold text-lg sm:text-xl tracking-wide">
+      🌸 Cutie Awards
+    </div>
+    
+    <!-- Desktop Menu -->
+    <ul class="hidden sm:flex gap-4 sm:gap-6 text-sm sm:text-base font-medium text-emerald-700">
+      <li><a href="#" class="hover:text-emerald-900 transition">Home</a></li>
+      <li><a href="https://www.linkedin.com/in/anjali-wilfred-9a85aa251/?originalSubdomain=in" class="hover:text-emerald-900 transition">LinkedIn</a></li>
+      <li><a href="quotes.html" class="hover:text-emerald-900 transition">Quotes</a></li>
+      <li><a href="about.html" class="hover:text-emerald-900 transition">About</a></li>
+      <li><a href="contact.html" class="hover:text-emerald-900 transition">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Menu Hamburger -->
+    <div class="sm:hidden flex items-center">
+      <button id="hamburger" class="text-emerald-700">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="sm:hidden bg-emerald-100 w-full rounded-3xl shadow-md p-6 hidden">
+    <ul class="flex flex-col gap-4 text-sm sm:text-base font-medium text-emerald-700">
+      <li><a href="#" class="hover:text-emerald-900 transition">Home</a></li>
+      <li><a href="https://www.linkedin.com/in/anjali-wilfred-9a85aa251/?originalSubdomain=in" class="hover:text-emerald-900 transition">LinkedIn</a></li>
+      <li><a href="quotes.html" class="hover:text-emerald-900 transition">Quotes</a></li>
+      <li><a href="about.html" class="hover:text-emerald-900 transition">About</a></li>
+      <li><a href="contact.html" class="hover:text-emerald-900 transition">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content Box-in-Box -->
+  <div class="w-full max-w-5xl mx-auto bg-emerald-100 rounded-[40px] shadow-2xl p-4 sm:p-8 md:p-12 transition-all duration-500 hover:shadow-emerald-300">
+
+    <!-- Inner Card -->
+    <div class="w-full bg-emerald-50 rounded-[32px] shadow-inner p-6 sm:p-10 md:p-14 flex flex-col items-center">
+      
+      <h1 class="text-4xl sm:text-5xl text-center font-bold text-emerald-700 mb-10 leading-snug tracking-tight">
+        And the cutie of the year award goes to
+      </h1>
+
+      <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 w-full">
+        <img 
+          src="your-girlfriend-photo.jpg" 
+          alt="My girlfriend" 
+          class="w-full h-auto object-cover"
+        />
+      </div>
+
+      <p class="text-center text-gray-700 mt-6 text-lg italic">
+        Because some people glow. And some just *shine* 🌿
+      </p>
+
+      <!-- Reasons Section -->
+      <div class="mt-12 w-full">
+        <h2 class="text-3xl text-center text-emerald-800 font-bold mb-8">
+          5 Reasons Why She’s the Cutie of the Year
+        </h2>
+        <div class="grid gap-6 sm:grid-cols-2">
+          <div class="bg-white bg-opacity-80 p-6 rounded-2xl shadow hover:shadow-md transition">
+            <h3 class="text-xl font-semibold text-emerald-800 mb-2">1. That Glow ✨</h3>
+            <p class="text-gray-700">Her smile lights up every room (and my heart tbh).</p>
+          </div>
+          <div class="bg-white bg-opacity-80 p-6 rounded-2xl shadow hover:shadow-md transition">
+            <h3 class="text-xl font-semibold text-emerald-800 mb-2">2. Gentle Soul 🌱</h3>
+            <p class="text-gray-700">Kindness radiates from everything she does.</p>
+          </div>
+          <div class="bg-white bg-opacity-80 p-6 rounded-2xl shadow hover:shadow-md transition">
+            <h3 class="text-xl font-semibold text-emerald-800 mb-2">3. Pure Style 💁‍♀️</h3>
+            <p class="text-gray-700">Effortlessly Pinterest-chic. Literally always slaying.</p>
+          </div>
+          <div class="bg-white bg-opacity-80 p-6 rounded-2xl shadow hover:shadow-md transition">
+            <h3 class="text-xl font-semibold text-emerald-800 mb-2">4. The Laugh 😍</h3>
+            <p class="text-gray-700">The kind of laugh that makes you fall in love again.</p>
+          </div>
+          <div class="bg-white bg-opacity-80 p-6 rounded-2xl shadow hover:shadow-md transition sm:col-span-2">
+            <h3 class="text-xl font-semibold text-emerald-800 mb-2">5. She's Her 👑</h3>
+            <p class="text-gray-700">Simply iconic. The moment. The masterpiece. The main character.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Script to Toggle Mobile Menu -->
+  <script>
+    document.getElementById("hamburger").addEventListener("click", function() {
+      const mobileMenu = document.getElementById("mobile-menu");
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+</html>
